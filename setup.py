@@ -8,7 +8,7 @@ re-bundling of the open source tool that comes bundled with Cassandra
 to allow for cqlsh to be installed and run inside of virtual
 environments.'''
 
-from distutils.core import setup
+from setuptools import setup
 
 doclines = __doc__.split("\n")
 
